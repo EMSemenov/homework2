@@ -4,7 +4,7 @@
 <head>
 	<title>CSS. Часть №1 (Синтаксис + Обнуление)</title>
 	<link
-		href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+		href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
 		rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css" />
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -13,21 +13,79 @@
 <body>
 	<div class="page">
 		<div class="header">
-			<div class="header-logo">
-				<img src="./img/logo/Logo.svg" alt="">
+			<div class="header-container">
+				<div class="menu-logo">
+					<img src="./img/logo/Logo.svg" alt="Logo">
+				</div>
+				<div class="menu-list">
+					<nav>
+						<ul>
+							<li><a class="link-active" href="">Услуги</a></li>
+							<li><a class="link" href="">Каталог</a></li>
+							<li><a class="link" href="">Проекты</a></li>
+							<li><a class="link" href="">Компания</a></li>
+							<li><a class="link" href="">Курсы</a></li>
+							<li><a class="link" href="">Цены</a></li>
+							<li><a class="link" href="">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<div class="menu-body">
-				<nav>
-					<ul class="menu-list">
-						<li class="menu-item"><a class="menu-link" href="">Услуги</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Каталог</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Проекты</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Компания</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Курсы</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Цены</a></li>
-						<li class="menu-item"><a class="menu-link" href="">Контакты</a></li>
+		</div>
+		<div class="container">
+			<div class="block-title">
+				<h1 class="title">Автоматизация бизнеса</h1>
+			</div>
+			<div class="section">
+				<div class="section-text">
+					<h2 class="title2">Автоматизация отдела продаж</h2>
+					<p class="text">В коммерческих организациях часто упускается много незафиксированной информации,
+						даже если
+						сотрудники ответственны и имеют хорошую память. Автоматизация отдела продаж поможет это
+						исправить.</p>
+					<ul class="section-list">
+						<li class="section-item"><span>Обучение персонала:Да</span></li>
+						<li class="section-item"><span>Срок выполнения: До 6 месяцев</span></li>
+						<li class="section-item"><span>Техническая поддержка: Нет</span></li>
 					</ul>
-				</nav>
+					<p class="price">от 12 000 ₽/час</p>
+				</div>
+				<div class="section-image">
+					<img src="./img/Pic.jpg" alt="">
+				</div>
+			</div>
+			<div class="section">
+				<div class="section-text">
+					<h2 class="title2">Комплексная автоматизация</h2>
+					<p class="text">Комплексная автоматизация — это оптимизация работы всех направлений компании. Если
+						предприятие планирует развиваться, то работа каждого отдела должна быть автоматизирована.</p>
+					<ul class="section-list">
+						<li class="section-item"><span>Обучение персонала: Да</span></li>
+						<li class="section-item"><span>Срок выполнения: От 4 месяцев</span></li>
+						<li class="section-item"><span>Техническая поддержка: 6 месяцев</span></li>
+					</ul>
+					<p class="price">от 16 000 ₽/час</p>
+				</div>
+				<div class="section-image">
+					<img src="./img/Pic2.jpg" alt="">
+				</div>
+			</div>
+			<div class="section">
+				<div class="section-text">
+					<h2 class="title2">POS-системы</h2>
+					<p class="text">POS-система — это программно-аппаратный комплекс, который автоматизирует работу
+						кассиров. Он используется для контроля продаж на кассах крупных торговых центров и в небольших
+						магазинах.</p>
+					<ul class="section-list">
+						<li class="section-item"><span>Обучение персонала: Да</span></li>
+						<li class="section-item"><span>Срок выполнения: 1 месяц</span></li>
+						<li class="section-item"><span>Техническая поддержка: 1 год</span></li>
+					</ul>
+					<p class="price">30 000 ₽</p>
+				</div>
+				<div class="section-image">
+					<img src="./img/Pic3.jpg" alt="">
+				</div>
 			</div>
 		</div>
 	</div>
